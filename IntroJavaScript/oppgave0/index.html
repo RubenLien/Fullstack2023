@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Øvingsoppgaver JS</title>
+    <meta charset="UTF-8" />
+  </head>
+  <style>
+    .red-border {
+      border: 1px solid red;
+    }
+  </style>
+  <body>
+    <main id="app">
+      <ol>
+        <li>
+          Lag lytteren og funksjonen som gjør at du kan fjerne et element med id
+          #remove. Bruk knappen med id #remove-btn
+        </li>
+        <li>
+          Bytt ut teksten i p med id #change med noe du selv velger. Bruk
+          knappen med id #change-btn
+        </li>
+        <li>
+          Lag lytteren til input-boksen med id #input som gjør at du kan skrive
+          ut teksten i inputboksen til en paragrafen med id #input-text
+        </li>
+        <li>
+          Lag lytteren og funksjonen som gjør at du går igjennom listen myList
+          og skriver ut alle elementene i ul med id #ul. Bruk li elementer.
+          Knappen med id #write-list kan brukes.
+        </li>
+        <li>
+          Lag lytterene og funksjonene som gjør at du kan lage et et HTML
+          element (gjerne fra en nedtrekkslist med id #select) og tekst fra
+          inputboksen med id #text. Bruk knappen med id #create. Legg teksten
+          til elementet med id #placeholder
+        </li>
+        <li>
+          Lag lytteren til knappen med id #remove-li og funksjonen som gjør at
+          du ved hvert klikk sletter et og et li element fra ul med id #list
+        </li>
+        <li>
+          Lytt til tastaturklikk på inputboks med id #name. Lag funksjonen som
+          sjekker om ordet er maksimum 4 bokstaver langt. Hvis du krysser 4
+          bokstaver gjør knappen med id #order disablet eller gi knappen en rød
+          border
+        </li>
+        <li>
+          Hent ut alle barna av ul med <b>klasse</b> .children. Gi
+          oddetall-barna grønn border mens partall skal ha pink. Bruk knappen
+          med id #color for å gjøre endringen.
+        </li>
+      </ol>
+      <div>
+        <h3>Oppgave 1</h3>
+        <p id="remove">Fjern denne teksten med knappen under</p>
+        <button id="remove-btn">Fjern teksten over</button>
+      </div>
+      <div>
+        <h3>Oppgave 2</h3>
+        <p id="change">
+          Endre denne teksten til noe du velger selv når du trykker på knappen
+          under
+        </p>
+        <button id="change-btn">Klikk her for å endre teksten</button>
+      </div>
+      <div>
+        <h3>Oppgave 3</h3>
+        <input type="text" id="input" placeholder="Tekst her" />
+        <p id="input-text">
+          Skriv ut teksten i input-boksen her når du skriver noe
+        </p>
+      </div>
+      <div>
+        <h3>Oppgave 4</h3>
+        <ul id="ul"></ul>
+        <button id="write-list">
+          Bruk denne til å skrive ut elementene fra myList
+        </button>
+      </div>
+      <div>
+        <h3>Oppgave 5</h3>
+        <div id="placeholder"></div>
+        <select id="select">
+          <option value="h2">h2</option>
+          <option value="h3">h3</option>
+          <option value="span">span</option>
+          <option value="p">p</option>
+        </select>
+        <input type="text" id="text" placeholder="Tekst her" />
+        <button id="create">Bruk denne til å lage elementet</button>
+      </div>
+      <div>
+        <h3>Oppgave 6</h3>
+        <ul id="list">
+          <li>Element 1</li>
+          <li>Element 2</li>
+          <li>Element 3</li>
+          <li>Element 4</li>
+        </ul>
+        <button id="remove-li">Bruk denne til å fjerne li</button>
+      </div>
+      <div>
+        <h3>Oppgave 7</h3>
+        <input type="text" id="name" placeholder="Navn her" />
+        <button id="order">
+          Gjør denne disablet eller gi en rød border hvis mer enn 4 bokstaver
+        </button>
+      </div>
+      <div>
+        <h3>Oppgave 8</h3>
+        <ul class="children">
+          <li>List one</li>
+          <li>List two</li>
+          <li>List three</li>
+          <li>List four</li>
+          <li>List five</li>
+        </ul>
+        <button id="color">
+          Bruk denne til å gi li-elementer border med farge
+        </button>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

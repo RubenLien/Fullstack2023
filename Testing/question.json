@@ -1,0 +1,52 @@
+{
+    "questions": [
+      {
+        "title": "Which anime is ranked number 1 according to MyAnimeList?",
+        "answers": [
+          { "answer": "Hunter x Hunter (2011)" },
+          { "answer": "Steins;Gate" },
+          { "answer": "Monster" },
+          { "answer": "Fullmetal Alchemist: Brotherhood", "correct": true }
+        ],
+        "helper": {
+          "text": "Hint: The anime has an alternative version that was aired in 2003'"
+        }
+      },
+      {
+        "title": "Who won the Premier League in 2022?",
+        "answers": [
+          { "answer": "Liverpool" },
+          { "answer": "Manchester City", "correct": true },
+          { "answer": "Chelsea" },
+          { "answer": "Arsenal" }
+        ],
+        "helper": {
+          "text": "Hint: The striker on the team is from Norway."
+        }
+      },
+      {
+        "title": "Which game is the most played in 2023 according to SteamDB?",
+        "answers": [
+          { "answer": "Counter-Strike 2", "correct": true },
+          { "answer": "Cyberpunk 2077" },
+          { "answer": "Apex Legends" },
+          { "answer": "Baldur's Gate 3" }
+        ],
+        "helper": {
+          "text": "Hint: The game is developed and published by Valve"
+        }
+      },
+      {
+        "title": "What is the capital of Switzerland?",
+        "answers": [
+          { "answer": "Berlin" },
+          { "answer": "Amsterdam" },
+          { "answer": "Brussels" },
+          { "answer": "Bern", "correct": true }
+        ],
+        "helper": {
+          "text": "Hint: The fourth most populous city in Switzerland."
+        }
+      }
+    ]
+  }
